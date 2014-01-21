@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspose Diagram", "Aspose Diagram\Aspose Diagram.csproj", "{B31060BA-651A-4ADD-9456-E31C26CAB605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSTO Diagram", "VSTO Diagram\VSTO Diagram.csproj", "{647FD6A9-A785-4FC1-BF6F-266992458E68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B31060BA-651A-4ADD-9456-E31C26CAB605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31060BA-651A-4ADD-9456-E31C26CAB605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31060BA-651A-4ADD-9456-E31C26CAB605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31060BA-651A-4ADD-9456-E31C26CAB605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647FD6A9-A785-4FC1-BF6F-266992458E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647FD6A9-A785-4FC1-BF6F-266992458E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647FD6A9-A785-4FC1-BF6F-266992458E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647FD6A9-A785-4FC1-BF6F-266992458E68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

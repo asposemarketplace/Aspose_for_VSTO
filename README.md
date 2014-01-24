@@ -1,5 +1,4 @@
 Below are the system requirements for both of the products before using the available code snippets:
-
 ##VSTO requirement and installation:##
 
 * Microsoft Office installed on machine.

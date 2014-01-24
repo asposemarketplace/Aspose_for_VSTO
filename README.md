@@ -1,5 +1,3 @@
-#Aspose for VSTO
-
 Below are the system requirements for both of the products before using the available code snippets:
 
 ##VSTO requirement and installation:##
@@ -97,108 +95,13 @@ VSTO, or Visual Studio Tools for Office, or Microsoft Visual Studio Tools is par
 
 [Aspose](http://www.aspose.com) are file format experts and provide APIs and components for various file formats including MS Office, OpenOffice, PDF and Image formats. These APIs are available on a number of development platforms including .NET
  frameworks &ndash; the .NET frameworks starting from version 2.0 are supported. If you are a .NET developer, you can use Aspose’s native .NET APIs in your .NET applications to process various file formats in just a few lines of codes. All the Aspose
- APIs don’t have any dependency over any other engine. For example, you don’t need to have MS Office installed on the server to process MS Office files. Below is a list of products we support for .NET developers:
-
-
-### Aspose.Cells for .NET
-
-[![Aspose.Cells for .NET](http://www.aspose.com/App_Themes/V2/images/productLogos/NET/aspose_cells-for-net.jpg)](http://www.aspose.com/.net/excel-component.aspx)
-
-Using these APIs, the .NET developers can perform simple and complex operations over various spreadsheet formats including MS Excel and OpenOffice spreadsheets. The APIs also provide conversion and rendering
- features for these file formats.
-
-[![Learn More](http://www.aspose.com/Images/Learn-More.gif)](http://www.aspose.com/.net/excel-component.aspx)
-
-
-### Aspose.Words for .NET
-
-[![Aspose.Words for .NET](http://www.aspose.com/App_Themes/V2/images/productLogos/NET/aspose_words-for-net.jpg)](http://www.aspose.com/.net/word-component.aspx)
-
-Using these APIs, the .NET developers can perform simple and complex operations over various word processing formats including MS Word and OpenOffice documents. The APIs also provide conversion and rendering
- features for these file formats.
-
-[![Learn More](http://www.aspose.com/Images/Learn-More.gif)](http://www.aspose.com/.net/word-component.aspx)
-
-
-### Aspose.Pdf for .NET
-
-[![Aspose.PDF for .NET](http://www.aspose.com/App_Themes/V2/images/productLogos/NET/aspose_pdf-for-net.jpg)](http://www.aspose.com/.net/pdf-component.aspx)
-
-Using these APIs, the .NET developers can perform simple and complex operations over PDF files. The APIs also provide conversion and rendering features for these file formats.
-
-[![Learn More](http://www.aspose.com/Images/Learn-More.gif)](http://www.aspose.com/.net/pdf-component.aspx)
-
-
-### Aspose.Slides for .NET
-
-[![Aspose.Slides for .NET](http://www.aspose.com/App_Themes/V2/images/productLogos/NET/aspose_slides-for-net.jpg)](http://www.aspose.com/.net/powerpoint-component.aspx)
-
-Using these APIs, the .NET developers can perform simple and complex operations over various presentation formats including MS PowerPoint and OpenOffice presentations. The APIs also provide conversion and rendering features for these file formats.
-
-[![Learn More](http://www.aspose.com/Images/Learn-More.gif)](http://www.aspose.com/.net/powerpoint-component.aspx)
-
-
-### Aspose.BarCode for .NET
-
-[![Aspose.BarCode for .NET](http://www.aspose.com/App_Themes/V2/images/productLogos/NET/aspose_barcode-for-net.jpg)](http://www.aspose.com/.net/barcode-component.aspx)
-
-Using these APIs, the .NET developers can generate and recognize a variety of barcode symbologies. Create barcode applications, or add barcodes to documents using these APIs.
-
-[![Learn More](http://www.aspose.com/Images/Learn-More.gif)](http://www.aspose.com/.net/barcode-component.aspx)
-
-
-### Aspose.Tasks for .NET
-
-[![Aspose.Tasks for .NET](http://www.aspose.com/App_Themes/V2/images/productLogos/NET/aspose_tasks-for-net.jpg)](http://www.aspose.com/.net/project-management-component.aspx)
-
-Using these APIs, the .NET developers can create, read, manipulate, convert and save Microsoft Project files. The APIs also provide conversion and rendering features for MS Project file formats.
-
-[![Learn More](http://www.aspose.com/Images/Learn-More.gif)](http://www.aspose.com/.net/project-management-component.aspx)
-
-
-### Aspose.Email for .NET
-
-[![Aspose.Email for .NET](http://www.aspose.com/App_Themes/V2/images/productLogos/NET/aspose_email-for-net.jpg)](http://www.aspose.com/.net/email-component.aspx)
-
-Using these APIs, the .NET developers can perform simple and complex operations over various email formats including MS Outlook email formats. The APIs also provide conversion and rendering features for these file formats.
-
-[![Learn More](http://www.aspose.com/Images/Learn-More.gif)](http://www.aspose.com/.net/email-component.aspx)
-
-
-### Aspose.Diagram for .NET
-
-[![Aspose.Diagram for .NET](http://www.aspose.com/App_Themes/V2/images/productLogos/NET/aspose_diagram-for-net.jpg)](http://www.aspose.com/.net/diagram-component.aspx)
-
-Using these APIs, the .NET developers can work with Microsoft Visio drawing files. The APIs enable developers to quickly create .NET applications for manipulating and converting Microsoft Visio drawing files.
-
-[![Learn More](http://www.aspose.com/Images/Learn-More.gif)](http://www.aspose.com/.net/diagram-component.aspx)[](http://www.aspose.com/demos/.net-components/aspose.diagram/default.aspx)
-
-
-
-### Aspose.OCR for .NET
-
-[![Aspose.OCR for .NET](http://www.aspose.com/App_Themes/V2/images/productLogos/NET/aspose_ocr-for-net.jpg)](http://www.aspose.com/.net/ocr-component.aspx)
-
-Using these APIs, the .NET developers can perform OCR operations over images. The APIs hide all the complexities involved with OCR and developers only need to write few lines of codes to call public interfaces exposed by the API.
-
-[![Learn More](http://www.aspose.com/Images/Learn-More.gif)](http://www.aspose.com/.net/ocr-component.aspx)[](http://www.aspose.com/demos/.net-components/aspose.ocr/default.aspx)
-
-
-### Aspose.Imaging for .NET
-
-
-[![Aspose.Imaging for .NET](http://www.aspose.com/App_Themes/V2/images/productLogos/NET/aspose_imaging-for-net.jpg)
-](http://www.aspose.com/.net/imaging-component.aspx)
-
-Using these APIs, the .NET developers can create, open, manipulate and save images of various formats.
-
-[![Learn More](http://www.aspose.com/Images/Learn-More.gif)](http://www.aspose.com/.net/imaging-component.aspx)[](http://www.aspose.com/demos/.net-components/aspose.imaging/default.aspx)
+ APIs don’t have any dependency over any other engine. For example, you don’t need to have MS Office installed on the server to process MS Office files.
 
 This project covers all the major features that helps you for Migration from Microsoft office Automation to Aspose.Below is the major outline of this project:
 
 1. [Aspose.Cells vs VSTO Excel](https://github.com/asposemarketplace/Aspose_for_VSTO/wiki/Aspose.Cells-vs-VSTO-Excel)
-2. [Aspose.Words vs VSTO Words]()
-3. [Aspose Slides vs VSTO PowerPoint]()
-4. [Aspose Tasks vs VSTO MS Project]()
-5. [Aspose Email vs VSTO Outlook]()
-6. [Aspose Diagram vs VSTO Visio]()
+2. [Aspose.Words vs VSTO Words](https://github.com/asposemarketplace/Aspose_for_VSTO/wiki/Aspose.Words-vs-VSTO-Words)
+3. [Aspose Slides vs VSTO PowerPoint](https://github.com/asposemarketplace/Aspose_for_VSTO/wiki/Aspose-Slides-vs-VSTO-PowerPoint)
+4. [Aspose Tasks vs VSTO MS Project](https://github.com/asposemarketplace/Aspose_for_VSTO/wiki/Aspose-Tasks-vs-VSTO-MS-Project)
+5. [Aspose Email vs VSTO Outlook](https://github.com/asposemarketplace/Aspose_for_VSTO/wiki/Aspose-Email-vs-VSTO-Outlook)
+6. [Aspose Diagram vs VSTO Visio](https://github.com/asposemarketplace/Aspose_for_VSTO/wiki/Aspose-Diagram-vs-VSTO-Visio)

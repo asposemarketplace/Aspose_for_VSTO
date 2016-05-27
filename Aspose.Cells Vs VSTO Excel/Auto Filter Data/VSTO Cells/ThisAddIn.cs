@@ -13,6 +13,7 @@ namespace VSTO_Cells
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
+            string FilePath = @"..\..\..\..\Sample Files\";
             Excel.Application ExcelApp = Application;
 
             //Add a Workbook.
@@ -48,7 +49,7 @@ namespace VSTO_Cells
             sheet.get_Range("B1", "B5").EntireColumn.AutoFit();
 
             //Save the copy of workbook as .xlsx file.
-            objBook.SaveCopyAs("vsto_autofilter.xlsx");
+            objBook.SaveCopyAs(FilePath + "AutoFilterData.xlsx");
  
         }
 

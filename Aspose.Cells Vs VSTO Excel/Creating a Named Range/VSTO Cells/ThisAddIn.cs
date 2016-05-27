@@ -14,6 +14,7 @@ namespace VSTO_Cells
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
+            string FilePath = @"..\..\..\..\Sample Files\";
             //Create Excel Object
             Excel.Application xl = Application;
 
@@ -39,7 +40,7 @@ namespace VSTO_Cells
             }
 
             //Save New Workbook
-            wb.SaveCopyAs("Test_Range.xls");
+            wb.SaveCopyAs(FilePath + "CreateNamedRange.xls");
 
             //Quit Excel Object
             xl.Quit();

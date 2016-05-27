@@ -13,6 +13,7 @@ namespace VSTO_Cells
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
+            string FilePath = @"..\..\..\..\Sample Files\";
             //Instantiate the Application object.
             Excel.Application ExcelApp = Application;
             //Add a Workbook.
@@ -54,7 +55,7 @@ namespace VSTO_Cells
             Microsoft.Office.Interop.Excel.Workbook workbook = sheet.Application.ActiveWorkbook;
 
             //Save the copy of workbook as OutputVsto.xlsx
-            workbook.SaveCopyAs("OutputVsto.xlsx");
+            workbook.SaveCopyAs(FilePath+"CreatePieChart.xlsx");
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)

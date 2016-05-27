@@ -13,6 +13,7 @@ namespace VSTO_Cells
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
+            string FilePath = @"..\..\..\..\Sample Files\";
             //Access vsto application
             Microsoft.Office.Interop.Excel.Application app = Globals.ThisAddIn.Application;
 
@@ -35,7 +36,7 @@ namespace VSTO_Cells
             cellA5.WrapText = true;
 
             //Save the workbook
-            workbook.SaveAs("OutputVsto.xlsx");
+            workbook.SaveAs(FilePath + "WrappingCellText.xlsx");
 
             //Quit the application
             app.Quit();

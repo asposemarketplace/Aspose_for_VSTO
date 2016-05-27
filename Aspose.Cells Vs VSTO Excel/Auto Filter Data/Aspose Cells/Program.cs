@@ -5,13 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using Aspose.Cells;
 
-namespace Aspose_Cells
+/*
+This project uses Automatic Package Restore feature of NuGet to resolve Aspose.Words for .NET API reference when the project is build. Please check https://docs.nuget.org/consume/nuget-faq for more information. If you do not wish to use NuGet, you can manually download Aspose.Words for .NET API from http://www.aspose.com/downloads, install it and then add its reference to this project. For any issues, questions or suggestions please feel free to contact us using http://www.aspose.com/community/forums/default.aspx
+*/
+namespace Aspose.Plugins.AsposeVSVSTO
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Instantiate a new Workbook.
+            string FilePath = @"..\..\..\..\Sample Files\";
+           //Instantiate a new Workbook.
             Workbook objBook = new Workbook();
 
             //Get the First sheet.
@@ -38,7 +42,7 @@ namespace Aspose_Cells
             sheet.AutoFitColumn(1, 0, 4);
 
             //Save the copy of workbook as .xlsx file.
-            objBook.Save("asposecells_autofilter.xlsx");
+            objBook.Save(FilePath+"AutoFilterData.xlsx");
         }
     }
 }

@@ -5,12 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Aspose_Words
+/*
+This project uses Automatic Package Restore feature of NuGet to resolve Aspose.Words for .NET API reference when the project is build. Please check https://docs.nuget.org/consume/nuget-faq for more information. If you do not wish to use NuGet, you can manually download Aspose.Words for .NET API from http://www.aspose.com/downloads, install it and then add its reference to this project. For any issues, questions or suggestions please feel free to contact us using http://www.aspose.com/community/forums/default.aspx
+*/
+namespace Aspose.Plugins.AsposeVSVSTO
 {
     class Program
     {
         static void Main(string[] args)
         {
+            string FilePath = @"..\..\..\..\Sample Files\";
             // The document that the other documents will be appended to.
             Document dstDoc = new Document();
 
@@ -21,11 +25,11 @@ namespace Aspose_Words
             for (int i = 1; i <= recordCount; i++)
             {
                 // Open the document to join.
-                Document srcDoc = new Document("src.doc");
+                Document srcDoc = new Document(FilePath+"JoinningDocumenttogether(source).docx");
 
                 // Append the source document at the end of the destination document.
                 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles);
-                Document doc2 = new Document("Section.ModifyPageSetupInAllSections.doc");
+                Document doc2 = new Document(FilePath+"JoinningDocumenttogether(dest).docx");
                 dstDoc.AppendDocument(doc2, ImportFormatMode.UseDestinationStyles);
                 // In automation you were required to insert a new section break at this point, however in Aspose.Words we
                 // don't need to do anything here as the appended document is imported as separate sectons already.
@@ -35,7 +39,7 @@ namespace Aspose_Words
                 if (i > 1)
                     dstDoc.Sections[i].HeadersFooters.LinkToPrevious(false);
             }
-            dstDoc.Save("updated.doc");
+            dstDoc.Save(FilePath +"JoinningDocumenttogether.docx");
         }
     }
 }

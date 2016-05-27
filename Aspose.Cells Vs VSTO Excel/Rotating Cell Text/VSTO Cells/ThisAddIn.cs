@@ -14,6 +14,7 @@ namespace VSTO_Cells
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
+            string FilePath = @"..\..\..\..\Sample Files\";
             //intiate Application object
             Excel.Application ExcelApp = Application;
             //Add a Workbook.
@@ -39,7 +40,7 @@ namespace VSTO_Cells
             _range.Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.White);
 
             //Save the excel file.
-            objBook.SaveCopyAs("VSTO_RotateText_test.xlsx");
+            objBook.SaveCopyAs(FilePath+"RotatingCellText.xlsx");
 
             //Quit the Application.
             ExcelApp.Quit();

@@ -12,6 +12,7 @@ namespace Aspose_Cells
     {
         static void Main(string[] args)
         {
+            string FilePath = @"..\..\..\..\Sample Files\";
             // Instantiate a new Workbook.
             Workbook objworkbook = new Workbook();
             // Get the First sheet.
@@ -40,7 +41,7 @@ namespace Aspose_Cells
             objcell.SetStyle(objstyle);
 
             // Save the work book
-            objworkbook.Save("RotateText_test.xlsx");
+            objworkbook.Save(FilePath+"RotatingCellText.xlsx");
         }
     }
 }

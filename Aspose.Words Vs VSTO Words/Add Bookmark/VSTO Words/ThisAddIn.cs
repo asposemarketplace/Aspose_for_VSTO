@@ -13,14 +13,13 @@ namespace VSTO_Words
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
-            string mypath = "";
+            string FilePath = @"..\..\..\..\Sample Files\";
+            string fileName = FilePath + "Add Bookmark.docx";
             Word.Application wordApp = Application;
-            wordApp.Documents.Open(mypath + "Add Bookmark.doc");
+            wordApp.Documents.Open(fileName);
             Document extendedDocument = Globals.Factory.GetVstoObject(this.Application.ActiveDocument);
-
-
             Bookmark firstParagraph = extendedDocument.Controls.AddBookmark(
-                extendedDocument.Paragraphs[1].Range, "FirstParagraph"); 
+                extendedDocument.Paragraphs[1].Range, "FirstParagraph");
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)

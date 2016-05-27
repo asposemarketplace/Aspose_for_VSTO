@@ -13,6 +13,7 @@ namespace VSTO_Cells
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
+            string FilePath = @"..\..\..\..\Sample Files\";
             //Instantiate the Application object.
             Excel.Application ExcelApp = Application;
             //Add a Workbook.
@@ -27,7 +28,7 @@ namespace VSTO_Cells
             objSheet.Hyperlinks.Add(_range, "http://www.aspose.com/", Type.Missing, "Click to go to Aspose site", "Aspose Site!");
 
             //Save the excel file.
-            objBook.SaveCopyAs("Hyperlink_test.xls");
+            objBook.SaveCopyAs(FilePath+"AddHyperlinktoCells.xls");
             //Quit the Application.
             ExcelApp.Quit();
  

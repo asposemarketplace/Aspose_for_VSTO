@@ -6,9 +6,10 @@ namespace VSTO_Words
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
-            string mypath = "";
+            string FilePath = @"..\..\..\..\Sample Files\";
+            string fileName = FilePath + "SearchandReplaceText.docx";
             Word.Application wordApp = Application;
-            wordApp.Documents.Open(mypath + "Search and Replace.doc");
+            wordApp.Documents.Open(fileName);
             object replaceAll = Word.WdReplace.wdReplaceAll;
 
             this.Application.Selection.Find.ClearFormatting();

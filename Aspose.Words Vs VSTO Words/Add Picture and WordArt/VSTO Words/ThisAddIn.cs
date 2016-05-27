@@ -13,11 +13,11 @@ namespace VSTO_Words
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
-            string mypath = "";
+            string FilePath = @"..\..\..\..\Sample Files\";
             Word.Application wordApp = Application;
-            wordApp.Documents.Open(mypath+"Add Picture and WordArt.doc");
+            wordApp.Documents.Open(FilePath+"Add Picture and WordArt.doc");
             //Add picture to Doc
-            this.Application.Selection.InlineShapes.AddPicture(mypath+"download.jpg");
+            this.Application.Selection.InlineShapes.AddPicture(FilePath+"image.jpg");
 
             //Add WordArt
             //Get the left and top position of the current cursor location.

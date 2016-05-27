@@ -13,15 +13,16 @@ namespace VSTO_Words
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
-            string mypath = "Document.docx";
+            string FilePath = @"..\..\..\..\Sample Files\";
+            string fileName = FilePath + "JoinningDocumenttogether.docx";
             Word.Application wordApp = Application;
-            wordApp.Documents.Open(mypath);
+            wordApp.Documents.Open(fileName);
             int recordCount = 2;
             int i = 0;
             for (i = 0; i <= recordCount; i++)
                 wordApp.Selection.WholeStory();
             wordApp.Selection.EndOf();
-            wordApp.Selection.InsertFile("DetailsList.docx");
+            wordApp.Selection.InsertFile(FilePath+"SecondaryDocument.docx");
 
             if (i < recordCount)
             {
